@@ -20,6 +20,7 @@ public class CrescimentoDemografico_program {
         ano = sc.nextInt();
 
         calc = populacao + (populacao * (taxa/100));
+        //Falta corrigir a atualização da população
         System.out.printf("Populacao em %d é: %.2f \n", ano, populacao);
         System.out.printf("Populacao em %d é: %.2f \n", ano + 1, populacao*2);
         sc.close();
